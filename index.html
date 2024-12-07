@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/map-pin-line.svg" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,10 +13,11 @@
     />
     <title>Local Turístico</title>
   </head>
+
   <body>
     <div id="page">
       <section id="about">
-        <p>Sua próxima viagem:</p>
+        <span class="accent">Sua próxima viagem:</span>
         <h1>Conheça Busan</h1>
         <img src="assets/image-about.jpg" alt="paisagem da cidade de Busan" />
         <p class="subtitle">
@@ -25,9 +27,10 @@
           as suas ofertas culinárias.
         </p>
       </section>
-      <section id="atractions">
-        <div class="atractions-intro">
-          <p>Para os amantes de história</p>
+      <div class="divider"></div>
+      <section id="attractions">
+        <div id="attractions-intro">
+          <span class="accent">Para os amantes de história</span>
           <h2>Descubra 3 destinos imperdíveis em Busan</h2>
           <p>
             As atrações de Busan vão desde templos budistas centenários que
@@ -41,8 +44,8 @@
             encantar os fotógrafos.
           </p>
         </div>
-        <div class="atractions-list">
-          <div class="atractions-list-1 atractions">
+        <div id="attractions-list">
+          <div id="attractions-list-1" class="attractions">
             <h3>1. Templo Haedong Yonggungsa</h3>
             <img
               src="assets/image-list-1.jpg"
@@ -56,10 +59,10 @@
             </p>
             <p>Bom para:</p>
             <ul>
-              <li>História</li>
+              <li class="li-blue">História</li>
             </ul>
           </div>
-          <div class="atractions-list-2 atractions">
+          <div id="attractions-list-2" class="attractions">
             <h3>2. Templo Beomeo-sa</h3>
             <img
               src="assets/image-list-2.jpg"
@@ -73,10 +76,10 @@
             </p>
             <p>Bom para:</p>
             <ul>
-              <li>História</li>
+              <li class="li-blue">História</li>
             </ul>
           </div>
-          <div class="atractions-list-3 atractions">
+          <div id="attractions-list-3" class="attractions">
             <h3>3. Parque Yongdusan</h3>
             <img
               src="assets/image-list-3.jpg"
@@ -92,15 +95,22 @@
             </p>
             <p>Bom para:</p>
             <ul>
-              <li>Casais</li>
-              <li>Famílias</li>
-              <li>Orçamento</li>
+              <li class="li-purple">Casais</li>
+              <li class="li-pink">Famílias</li>
+              <li class="li-orange">Orçamento</li>
             </ul>
           </div>
         </div>
       </section>
       <div class="divider"></div>
+      <p class="attractions-outro">
+        As melhores coisas para fazer em Busan mostram a reputação da cidade
+        como um importante porto marítimo na Ásia. Frequentemente vista como a
+        essência da Coreia do Sul, você experimentará uma atmosfera única em
+        termos de diversidade étnica e cultural, já que a cidade recebe um
+        público cosmopolita o ano todo. 
+      </p>
     </div>
-    <footer></footer>
+    <footer>Feito com <img src="assets/heart.svg" /> pela Rocketseat</footer>
   </body>
 </html>
